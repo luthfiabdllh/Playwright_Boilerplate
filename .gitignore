@@ -1,0 +1,14 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Generated BDD spec files (jangan di-commit, selalu di-generate ulang)
+/.features-gen/
+
+# Environment variables (rahasia, jangan di-commit)
+.env
