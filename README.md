@@ -1,6 +1,6 @@
-# 🎭 Netmonk — Playwright E2E Testing
+# 🎭 Playwright Boilerplate — Playwright E2E Testing
 
-Proyek ini berisi automated end-to-end tests untuk aplikasi **Netmonk Portal**, menggunakan stack modern:
+Proyek ini berisi automated end-to-end tests untuk aplikasi **Playwright Boilerplate**, menggunakan stack modern:
 
 - **[Playwright](https://playwright.dev/)** — framework utama E2E testing
 - **[playwright-bdd](https://github.com/vitalets/playwright-bdd)** — BDD dengan Gherkin/Cucumber
@@ -12,7 +12,7 @@ Proyek ini berisi automated end-to-end tests untuk aplikasi **Netmonk Portal**, 
 ## 📁 Struktur Proyek
 
 ```
-Netmonk/
+Playwright Boilerplate/
 ├── features/               # Skenario BDD (Gherkin .feature files)
 │   └── auth/
 │       └── login.feature
@@ -60,7 +60,7 @@ cp .env.example .env
 
 ```env
 BASE_URL=http://localhost:3000
-VALID_EMAIL=admin@netmonk.local
+VALID_EMAIL=admin@PlaywrightBoilerplate.local
 VALID_PASSWORD=Password123!
 INVALID_EMAIL=wrong@example.com
 INVALID_PASSWORD=wrongpassword
